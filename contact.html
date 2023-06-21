@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zay Shop</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="images/apple-icon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--this is the calland info section-->
+  <div class="contact bg-dark text-white">
+    <div class="container ">
+      <div class="d-flex  justify-content-between">
+        <div class="call-contact">
+          <i class="fa fa-envelope"></i> &nbsp;&nbsp; info@company.com &nbsp; &nbsp;&nbsp;&nbsp;
+          <i class="fa fa-phone"></i> &nbsp;&nbsp; 010-020-0340
+        </div>
+        </i>
+        <div class="social-contact  text-white">
+          <i class="fa fa-facebook-f"></i> &nbsp;&nbsp;
+          <i class="fa fa-instagram"></i> &nbsp;&nbsp;
+          <i class="fa fa-twitter"></i> &nbsp;&nbsp;
+          <i class="fa fa-linkedin"></i> &nbsp;&nbsp;
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- ---- this is a navigation sectio--------- -->
+
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="javascript:void(0)"><img src="images/apple-icon.png" height="70" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav mx-auto  ">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+
+          <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#myModal">
+            <i class="fa fa-search" style="font-size: 20px;"></i>
+          </button>
+          <div class="navv-icon">
+            <div class=""> <i class="fa fa-fw fa-cart-arrow-down text-dark mt-1"> </i></div>
+            <div class="late text-dark"><span class="lol">7</span></div>
+          </div>&nbsp;&nbsp;&nbsp;
+          <div class="navv-icon">
+            <div class=""> <i class="fa fa-user text-dark mt-1 "> </i></div>
+            <div class="late text-dark"><span class="lol">25</span></div>
+          </div>
+
+
+
+          <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">search</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <input class="form-control me-2" type="text" placeholder="Search">
+                  <button class="btn btn-primary" type="button"><i class="fa fa-search"></i></button>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!-- ---------------------Showcase Section-------------------------------- -->
+<section class="contact-showcase py-5">
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="h1">Contact Us</h1>
+                <p class="text-muted">
+                    Proident, sunt in culpa qui officia 
+                    deserunt mollit anim id est laborum. 
+                    Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ---------------------------Map Section----------------------- -->
+<section class="map">
+    
+</section>
+
+  <!-- ------------Contact-Form Section----------------------- -->
+  <section class="contact-form pt-5 mt-3 mb-5">
+    <div class="cont-form">
+        <div class="row">
+            <div class="col-md-12">
+                <form action="">
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <label class="form-label" for="firstname">Firstname</label>
+                           <input type="text" class="form-control py-2" placeholder="Firstname">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label" for="lastname">Lastname</label>
+                           <input type="text" class="form-control py-2" placeholder="Lastname">
+                        </div>
+                    </div>
+                    <div class="form-all mt-3">
+                        <label class="form-label" for="subject">Subject</label>
+                        <input type="text" class="form-control py-2" placeholder="Subject">
+                    </div>
+                    <div class="form-all mt-3 mb-3">
+                        <label class="form-label" for="message">Message</label>
+                        <textarea name="" id="" cols="6" rows="10" class="form-control py-2" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-all mt-3 mb-3 d-flex justify-content-end">
+                      <input type="submit" class="btn btn-success" value="Let's Talk">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+  </section>
+
+ 
+
+  <!-- --------------------------------Footer section-------------------- -->
+  <footer class="foot-sec">
+    <div class="container pt-5">
+      <div class="footall row pb-5">
+        <div class="col-md-4">
+          <img class="" src="images/apple-icon.png" width="100" alt="">
+          <ul>
+            <li><i class="fas fa-map"></i>N023, Handsome street </li>
+            <li><i class="fa fa-phone"> +234 123 45567 789</i></li>
+            <li><i class=" fa fa-envelope"></i> info@company.com</li>
+          </ul>
+        </div>
+        <div class="col-md-4 pt-3">
+          <h2 class="h2 pb-3"> Products</h2>
+          <ul>
+            <li><a href="">Luxry</a></li>
+            <li><a href="">Sport Wear</a></li>
+            <li><a href="">Women Shoes</a></li>
+            <li><a href="">Men's Shoes</a></li>
+            <li><a href="">Popular Dress</a></li>
+            <li><a href="">Gym Accessories</a></li>
+            <li><a href="">Sport Shoes</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 pt-3">
+          <h2 class="h2 pb-3"> FutherInfo</h2>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Shop Locations</a></li>
+            <li><a href="">FAQs</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="foot-icons row pt-3 pb-3">
+        <div class="col-md-8">
+          <ul>
+            <li><i class="fa fa-instagram rounded-circle"></i></li>
+            <li><i class="fa fa-facebook-f rounded-circle"></i></li>
+            <li><i class="fa fa-linkedin rounded-circle"></i></li>
+            <li><i class="fa fa-twitter rounded-circle"></i></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <form action="dd">
+            <input type="ss" class="pt-2 pb-2 ps-3 rounded" placeholder="Email Address">
+            <input type="button" class="btn btn-success" value="Subscribe">
+          </form>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <div class="foot-copyright text-white pb-3 pt-3 ">
+      <div class="container">
+        Copyright © 2021 Company Name | Designed by TemplateMo
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

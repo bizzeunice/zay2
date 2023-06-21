@@ -1,0 +1,380 @@
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../fonts/Montserrat/static/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.contact {
+    color: white;
+    font-family: Montserrat-Medium;
+    font-size: 12px;
+    padding: 10px 0px 10px 70px;
+    height: 42px;
+}
+
+.social-contact {
+    margin-top: 0px;
+    padding-right: 70px;
+}
+
+.headding {
+    background-color: white;
+    height: 90px;
+}
+
+/* ---------------------Navigation section-------- */
+ul.navbar-nav li a {
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+
+ul.navbar-nav li a:hover {
+    color: green;
+}
+
+ul.navbar-nav li {
+    padding-left: 100px;
+}
+
+.navv-icon i {
+    font-size: 26px;
+}
+
+.late {
+    border-radius: 5px;
+    margin-left: -10px;
+    margin-top: -8px;
+}
+
+.navv-icon {
+    display: flex;
+}
+
+.lol {
+    font-weight: 600;
+    font-size: 12px;
+    background-color: rgb(226, 225, 225);
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+
+
+/* ---------------showcase section---------------- */
+.showcase-txt {
+    background-color: rgb(239, 239, 239);
+    min-height: 700;
+}
+
+.showcase-txt h1 {
+    padding-top: 150px;
+    padding-left: 150px;
+    font-weight: 100;
+    font-size: 2.7em;
+    letter-spacing: -2px;
+}
+
+.showcase-txt h2 {
+    padding-left: 150px;
+    font-weight: 100;
+    font-size: 2.0em;
+    letter-spacing: -2px;
+}
+
+.carousel-item {
+    background-color: #efefef;
+    ;
+}
+
+.showcase-txt p {
+    padding-left: 150px;
+    width: 80%;
+}
+
+.imgg {
+    width: 40%;
+}
+
+.imgg img {
+    width: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    filter: invert(72%) sepia(32%) saturate(502%) hue-rotate(83deg) brightness(83%) contrast(86%);
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.carousel-control-next-icon:after {
+    font-size: 55px;
+    color: red;
+}
+
+.carousel-indicators button {
+    /* filter: invert(72%) sepia(32%) saturate(502%) hue-rotate(83deg) brightness(83%) contrast(86%); */
+    filter: brightness(0) saturate(100%) invert(67%) sepia(34%) saturate(664%) hue-rotate(52deg) brightness(90%) contrast(95%);
+}
+
+.headd {
+    text-align: center;
+}
+
+.image img {
+    width: 100%;
+    filter: brightness(200%), contrast(78%);
+}
+
+.cat-box button {
+    text-align: center;
+}
+
+.blue {
+    background: #efefef;
+}
+
+/* ----------Featured Product Section---------- */
+.featured-h {
+    text-align: center;
+}
+
+.featured-h h1 {
+    font-weight: 100;
+}
+
+.featured {
+    background-color: #efefef;
+}
+
+.featured .card-body {
+    font-size: 18px;
+}
+
+.featured .card-body h3 {
+    font-weight: 100;
+}
+
+
+/* -----------------Showcase in about.html------------- */
+.showcase-a{
+    padding: 50px 0px;
+}
+.showcase-a h1{
+    padding-top: 50px;
+}
+.showcase-a p{
+    font-size: 18px;
+}
+/* <!-- ---------------Our Services Section------------- --> */
+.ourservice-head{
+    text-align: center;
+}
+.ourservice-head h1{
+    font-size: 3.5em;
+    font-weight: 100;
+}
+.ourservice-head p{
+    font-size: 18px;
+
+}
+.mybox i:first-child{
+    font-size:5em;
+    transform: scaleX(-1)
+}
+.mybox{
+    box-shadow: 10px 10px 15px rgba(197, 196, 196, 0.5);
+    text-align: center;
+}
+.mybox:hover{
+    background-color: rgb(0, 128, 68);
+    color: #efefef;
+}
+/* - --------------------------Our Brand Section-------------------- --> */
+.ourbrand{
+    background-color: #efefef;
+}
+.ourbrand-head{
+    text-align: center;
+}
+.ourbrand-head h1{
+    font-weight: 100;
+    font-size: 3.5em;
+}
+.ourbrand-body{
+    width: 70%;
+    margin: auto;
+}
+.cont{
+    width: 70%;
+    margin: auto;
+}
+.ie img{
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.ie img:hover{
+    filter: grayscale(0%);
+    opacity: 1;
+}
+/* --------------------------Shop Categories Sectionction----------------------- */
+.dropdown-toggle{
+    color: black;
+    text-decoration: none;
+    font-size:24px;
+    margin:30px 50px 30px 0px;
+}
+.img-card{
+   
+    display: grid;
+    columns: auto;
+    align-items: center;
+
+}
+.shop1{
+     background: url(../images/shop_01.jpg);
+    background-size:100%;
+    min-height: 330px;
+}
+.shop2{
+     background: url(../images/shop_02.jpg);
+    background-size:100%;
+    min-height: 330px;
+}
+.shop3{
+     background: url(../images/shop_03.jpg);
+    background-size:100%;
+    min-height: 330px;
+}
+.g-menu ul{
+    list-style: none;
+    display: inline;
+    font-size: 20px;
+}
+.g-menu ul li{
+   float: left;
+}
+.img-card ul{
+    list-style: none;
+    display:none;
+}
+.img-card ul li{
+    text-align: center;
+}
+.img-card:hover, .img-card:hover ul{
+display: block;
+display: inline;
+}
+.shop1:hover{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/shop_01.jpg); 
+    background-size:100%;
+    min-height:  330px;
+}
+.shop2:hover{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/shop_02.jpg); 
+    background-size:100%;
+    min-height:  330px;
+}
+.shop3:hover{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/shop_03.jpg); 
+    background-size:100%;
+    min-height:  330px;
+}
+.shop2:hover{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/shop_02.jpg); 
+    background-size:100%;
+    min-height:  330px;
+}
+
+.img-card li{
+    margin-top: 10px;
+    color: white;
+}
+.img-card i{
+    background-color: rgb(10, 143, 87);
+    padding: 10px;
+    border-radius: 5px;
+}
+/* - ---------------------Showcase Section-------------------------------- --> */
+.contact-showcase{
+background-color: #efefef;
+text-align: center;
+}
+/* <!-- ------------Contact-Form Section----------------------- --> */
+.cont-form{
+    width: 60%;
+    margin: auto;
+}
+
+/* -----------------------Footer section--------------- */
+.foot-sec {
+    background-color: rgb(2, 29, 36);
+}
+
+.footall ul {
+    list-style: none;
+    display: inline;
+}
+
+.footall h2 {
+    color: rgb(229, 230, 240);
+    font-weight: 100;
+    font-size: 3em;
+    border-bottom: 0.5px solid rgb(5, 58, 71);
+}
+
+.footall {
+    color: beige;
+    font-size: 18px;
+    border-bottom: 0.5px solid rgb(5, 58, 71);
+
+}
+
+.footall ul li{
+    padding-top: 10px;
+}
+.footall ul li a {
+    color: white;
+    text-decoration: none;
+  
+}
+
+.foot-icons ul{
+    display: flex;
+    list-style: none;
+    gap :10px
+}
+
+.foot-icons ul li i{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border: 0.5px solid  rgb(5, 58, 71);
+    padding:12px 15px
+
+}
+.foot-copyright{
+    background-color: rgb(2, 18, 22);
+    font-size: 18px;
+    font-weight: none;
+}
+
+
+@media screen and (max-width:650px) {
+    .contact{
+        display: none;
+    }
+}
